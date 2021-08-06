@@ -1,0 +1,42 @@
+Quali sono le possibili cause di un’eccezione?
+Un'eccezione durante l'esecuzione di un codice si può presentare in diversi casi: 
+Codice difettoso, problemi di hardware, autorizzazione fallita..
+Nel caso di errori di utilizzo, tipo un inserimento di diverso tipo di un dato, può generare eccezione. In questo caso si risolve modificando e perfezionando il codice.
+Errori nel programma, è un errore di run-time che possiamo risolvere quando possibile con il codice, altrimenti si gestiscono le eccezioni. 
+Gli errori di sistema invece non possono essere gestite mai a livello di programmazione, ma mediante la gestione delle eccezioni.
+
+Descrivere il costrutto formale per la gestione di una eccezione fornendo un esempio.
+   try {
+      //PORZIONE DI CODICE CHE PUO' GENERARE ECCEZIONE     
+	 }catch (ECCEZIONE1)
+         {
+                Console.WriteLine("CATTURO L'ECCEZIONE1");
+         }
+         catch (ECCEZIONE2)
+          {
+                Console.WriteLine("CATTURO L'ECCEZIONE2");
+          }
+            finally
+            {
+		          Console.WriteLine("ESEGUO IN OGNI CASO QUESTO CODICE");
+          }
+
+Descrivere i ruoli che esistono all’interno di un progetto
+
+Abbiamo 6 ruoli:
+Il proprietario del prodotto finale
+"Business Analysts" che si pongono tra gli owner del prodotto e il team tecnuco
+"Software Architect" Progettano i sistemi e il modo in cui devono lavorare gli sviluppatori.
+"Sviluppatori" Prendono i progetti degli analisti e architetti del software
+"Team QA" è il team di testing
+"Team Operations" Prende il software finito e testato e lo predispone in ambienti di esecuzione provvisori e finali.
+
+Descrivere la differenza tra class diagram e object diagram descrivendo gli elementi di cui possono essere composti. 
+Il Class diagram consente di vedere la connessione tra le classi tramite relazioni
+La classe è rappresentata da un rettangolo, gli attributi vengono inseriti all'interno della classe es. "+id: int {id} diciamo che l'attributo id è pubblico (+) ed è di tipo intero (int) ed è una chiave primaria {id}. L'operazione è il metodo, un'azione che può essettuare quella classe. Esempio "delete()"
+L'object diagram invece illustra l'oggetto proprio, cioè un'istanza di classi, inserendo i valori degli attributi
+
+
+
+
+
